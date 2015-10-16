@@ -472,7 +472,7 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- Mako Specific Repos -->
-  <project path="device/lge/mako" name="vocoderism/device_lge_mako" remote="github" revision="marshmallow-local" />
-  <project path="kernel/google/msm" name="vocoderism/kernel_google_msm" remote="github" revision="marshmallow-local" />
+  <project path="device/lge/mako" name="Raxfian-OS/platform_device_lge_mako" remote="github" revision="M-6.0" />
   <project path="vendor/lge/mako" name="vocoderism/vendor_lge_mako" remote="github" revision="marshmallow-local" />
+  <project path="kernel/lge/mako" name="CallMeAldy/kernel_lge_mako" remote="github" revision="mm-6.0" />
 </manifest>
