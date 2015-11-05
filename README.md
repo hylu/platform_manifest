@@ -16,8 +16,10 @@ To Build :-
 ------------
 
 . build/envsetup.sh
+
 lunch
-<choose Device>
+
+raxi_device
 
 make -j# otapackage
 
