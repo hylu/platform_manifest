@@ -10,3 +10,15 @@ To sync up, run this in terminal:
 ----------------------------------
 
 repo sync
+
+
+To Build :- 
+------------
+
+. build/envsetup.sh
+lunch
+<choose Device>
+
+make -j# otapackage
+
+# - number of jobs !!!
