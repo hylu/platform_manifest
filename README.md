@@ -21,4 +21,3 @@ lunch
 
 make -j# otapackage
 
-# - number of jobs !!!
