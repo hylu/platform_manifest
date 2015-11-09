@@ -258,7 +258,6 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="Raxfian-OS/platform_frameworks_base" remote="github" revision="M-6.0" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -351,7 +350,6 @@
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" groups="pdk-fs"/>
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" />
-  <project path="packages/apps/Dialer" name="Raxfian-OS/platform_packages_apps_Dialer" remote="github" revision="M-6.0" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" groups="pdk-fs" />
@@ -359,10 +357,8 @@
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
-  <project path="packages/apps/InCallUI" name="Raxfian-OS/platform_packages_apps_InCallUI" remote="github" revision="M-6.0" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" />
-  <project path="packages/apps/Launcher3" name="Raxfian-OS/platform_packages_apps_Launcher3" remote="github" revision="M-6.0" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
@@ -376,7 +372,6 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
-  <project path="packages/apps/Settings" name="Raxfian-OS/platform_packages_apps_Settings" remote="github" revision="M-6.0" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
@@ -387,14 +382,12 @@
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="Raxfian-OS/platform_packages_inputmethods_LatinIME" remote="github" revision="M-6.0" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" groups="pdk-fs" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" groups="pdk-fs" />
   <project path="packages/providers/BookmarkProvider" name="platform/packages/providers/BookmarkProvider" groups="pdk-fs" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/DownloadProvider" name="Raxfian-OS/platform_packages_providers_DownloadProvider" remote="github" revision="M-6.0" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
@@ -449,7 +442,6 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bt" name="platform/system/bt" groups="pdk" />
-  <project path="system/core" name="Raxfian-OS/platform_system_core" remote="github" revision="M-6.0" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
@@ -471,12 +463,20 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <project path="vendor/raxi" name="Raxfian-OS/platform_vendor_raxi" remote="github" revision="master" />
 
-  <!-- Mako Specific Repos -->
+  <!--Raxfian Repos -->
   <project path="device/lge/mako" name="Raxfian-OS/platform_device_lge_mako" remote="github" revision="M-6.0" />
-  <project path="vendor/lge/mako" name="vocoderism/vendor_lge_mako" remote="github" revision="marshmallow-local" />
+  <project path="vendor/lge/mako" name="Raxfian-OS/vendor_lge_mako" remote="github" revision="mm-6.0" />
+  <project path="vendor/lge/hammerhead" name="Raxfian-OS/vendor_lge_hammerhead" remote="github" revision="mm-6.0" />
   <project path="device/lge/mako-kernel" name="Raxfian-OS/platform_device_lge_mako-kernel" remote="github" revision="marshmallow" />
   <project path="external/libtruezip" name="CyanogenMod/android_external_libtruezip" remote="github" revision="cm-12.1" />
-  
+  <project path="vendor/raxi" name="Raxfian-OS/platform_vendor_raxi" remote="github" revision="master" />
+  <project path="frameworks/base" name="Raxfian-OS/platform_frameworks_base" remote="github" revision="M-6.0" />
+  <project path="packages/apps/Dialer" name="Raxfian-OS/platform_packages_apps_Dialer" remote="github" revision="M-6.0" />
+  <project path="packages/apps/InCallUI" name="Raxfian-OS/platform_packages_apps_InCallUI" remote="github" revision="M-6.0" />
+  <project path="packages/apps/Launcher3" name="Raxfian-OS/platform_packages_apps_Launcher3" remote="github" revision="M-6.0" />
+  <project path="packages/apps/Settings" name="Raxfian-OS/platform_packages_apps_Settings" remote="github" revision="M-6.0" />
+  <project path="packages/inputmethods/LatinIME" name="Raxfian-OS/platform_packages_inputmethods_LatinIME" remote="github" revision="M-6.0" />
+  <project path="packages/providers/DownloadProvider" name="Raxfian-OS/platform_packages_providers_DownloadProvider" remote="github" revision="M-6.0" />
+  <project path="system/core" name="Raxfian-OS/platform_system_core" remote="github" revision="M-6.0" />
 </manifest>
