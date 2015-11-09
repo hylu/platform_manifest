@@ -23,3 +23,5 @@ raxi_device
 
 make -j# otapackage
 
+
+Our Community https://plus.google.com/u/0/communities/113160673288185399191
