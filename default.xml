@@ -478,5 +478,5 @@
   <project path="packages/inputmethods/LatinIME" name="Raxfian-OS/platform_packages_inputmethods_LatinIME" remote="github" revision="M-6.0" />
   <project path="packages/providers/DownloadProvider" name="Raxfian-OS/platform_packages_providers_DownloadProvider" remote="github" revision="M-6.0" />
   <project path="system/core" name="Raxfian-OS/platform_system_core" remote="github" revision="M-6.0" />
-  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" remote="github" revision="M-6.0" />
+  <project path="packages/apps/CellBroadcastReceiver" name="Raxfian-OS/platform_packages_apps_CellBroadcastReceiver" remote="github" revision="M-6.0" />
 </manifest>
