@@ -418,6 +418,7 @@
   <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" groups="pdk,darwin,mips" />
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="pdk,darwin,x86" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" revision="master" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" />
@@ -480,4 +481,11 @@
   <project path="device/lge/hammerhead" name="Raxfian-OS/platform_device_lge_hammerhead" remote="github" revision="M-6.0" />
   <project path="external/libpng" name="Raxfian-OS/platform_external_libpng" groups="pdk" remote="github" revision="M-6.0" />
   <project path="hardware/qcom/audio" name="Raxfian-OS/platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="M-6.0" />
+  <project path="vendor/samsung" name="Raxfian-OS/proprietary_vendor_samsung" remote="github" revision="aosp-6.0" />
+  <project path="vendor/ti" name="Raxfian-OS/proprietary_vendor_ti" remote="github" revision="aosp-6.0" />
+  <project path="device/samsung/tuna" name="Raxfian-OS/android_device_samsung_tuna" remote="github" revision="aosp-6.0" />
+  <project path="hardware/ti/omap4" name="Raxfian-OS/android_hardware_ti_omap4" remote="github" revision="aosp-6.0" />
+  <project path="kernel/samsung/tuna" name="Raxfian-OS/android_kernel_samsung_tuna" remote="github" revision="aosp-6.0" />
+  
+  
 </manifest>
