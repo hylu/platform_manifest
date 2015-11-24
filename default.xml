@@ -460,7 +460,7 @@
   <project path="vendor/lge/hammerhead" name="Raxfian-OS/vendor_lge_hammerhead" remote="github" revision="mm6.0" />
   <project path="device/lge/mako-kernel" name="Raxfian-OS/platform_device_lge_mako-kernel" remote="github" revision="marshmallow" />
   <project path="external/libtruezip" name="CyanogenMod/android_external_libtruezip" remote="github" revision="cm-12.1" />
-  <project path="vendor/raxi" name="Raxfian-OS/platform_vendor_raxi" remote="github" revision="master" />
+  <project path="vendor/raxi" name="Raxfian-OS/platform_vendor_raxi" remote="github" revision="M-6.0" />
   <project path="frameworks/base" name="Raxfian-OS/platform_frameworks_base" remote="github" revision="M-6.0" />
   <project path="packages/apps/Dialer" name="Raxfian-OS/platform_packages_apps_Dialer" remote="github" revision="M-6.0" />
   <project path="packages/apps/InCallUI" name="Raxfian-OS/platform_packages_apps_InCallUI" remote="github" revision="M-6.0" />
