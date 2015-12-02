@@ -487,4 +487,5 @@
   <project path="packages/apps/Contacts" name="Raxfian-OS/platform_packages_apps_Contacts" groups="pdk-fs" remote="github" revision="M-6.0"/>
   <project path="packages/apps/ContactsCommon" name="Raxfian-OS/platform_packages_apps_ContactsCommon" groups="pdk-fs" remote="github" revision="M-6.0"/>
   <project path="external/sepolicy" name="Raxfian-OS/platform_external_sepolicy" groups="pdk" remote="github" revision="M-6.0" />
+  <project path="external/busybox" name="Raxfian-OS/platform_external_busybox" groups="pdk" remote="github" revision="mm" />
 </manifest>
