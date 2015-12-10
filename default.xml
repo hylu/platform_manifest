@@ -472,7 +472,6 @@
   <project path="device/lge/hammerhead" name="Raxfian-OS/platform_device_lge_hammerhead" remote="github" revision="M-6.0" />
   <project path="external/libpng" name="Raxfian-OS/platform_external_libpng" groups="pdk" remote="github" revision="M-6.0" />
   <project path="hardware/qcom/audio" name="Raxfian-OS/platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="M-6.0" />
-  <project path="device/samsung/tuna" name="Raxfian-OS/android_device_samsung_tuna" remote="github" revision="aosp-6.0" />
   <project path="frameworks/av" name="Raxfian-OS/platform_frameworks_av" groups="pdk" remote="github" revision="M-6.0" />
   <project path="frameworks/native" name="Raxfian-OS/platform_frameworks_native" groups="pdk" remote="github" revision="M-6.0" />
   <project path="frameworks/opt/telephony" name="Raxfian-OS/platform_frameworks_opt_telephony" groups="pdk" remote="github" revision="M-6.0" />
@@ -481,4 +480,11 @@
   <project path="packages/apps/ContactsCommon" name="Raxfian-OS/platform_packages_apps_ContactsCommon" groups="pdk-fs" remote="github" revision="M-6.0"/>
   <project path="external/sepolicy" name="Raxfian-OS/platform_external_sepolicy" groups="pdk" remote="github" revision="M-6.0" />
   <project path="external/busybox" name="Raxfian-OS/platform_external_busybox" groups="pdk" remote="github" revision="mm" />
-</manifest>
+  
+  <!-- Tuna Specific Repos -->
+  <project path="vendor/samsung" name="Raxfian-OS/proprietary_vendor_samsung" remote="github" revision="aosp-6.0" />
+  <project path="vendor/ti" name="Raxfian-OS/proprietary_vendor_ti" remote="github" revision="aosp-6.0" />
+  <project path="device/samsung/tuna" name="Raxfian-OS/android_device_samsung_tuna" remote="github" revision="aosp-6.0" />
+  <project path="hardware/ti/omap4" name="Raxfian-OS/android_hardware_ti_omap4" remote="github" revision="aosp-6.0" />
+  <project path="kernel/samsung/tuna" name="Raxfian-OS/android_kernel_samsung_tuna" remote="github" revision="aosp-6.0" />
+  </manifest>
