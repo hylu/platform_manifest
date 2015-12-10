@@ -476,7 +476,7 @@
   <project path="external/sepolicy" name="Raxfian-OS/platform_external_sepolicy" groups="pdk" remote="github" revision="M-6.0" />
   <project path="external/busybox" name="Raxfian-OS/platform_external_busybox" groups="pdk" remote="github" revision="mm" />
   
-  <!------------------------------------------- Device Specific Repos --------------------------------------------------------> 
+  <!-- Device Specific Repos --> 
   
   <!-- Tuna Specific Repos -->
   <project path="vendor/samsung" name="Raxfian-OS/proprietary_vendor_samsung" remote="github" revision="aosp-6.0" />
