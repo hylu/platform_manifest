@@ -355,7 +355,7 @@
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
-  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs"/>
+  <project path="packages/apps/PhoneCommon" name="Raxfian-OS/platform_packages_apps_PhoneCommon" remote="github" revision="M-6.0" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
@@ -384,8 +384,8 @@
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" groups="pdk-fs" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" groups="pdk-fs" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/Telecomm" name="Raxfian-OS/platform_packages_services_Telecomm" remote="github" revision="M-6.0" />
+  <project path="packages/services/Telephony" name="Raxfian-OS/platform_packages_services_Telephony" remote="github" revision="M-6.0" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" groups="pdk-fs" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" groups="pdk-fs" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" groups="pdk-fs" />
@@ -473,11 +473,7 @@
   <project path="device/lge/hammerhead" name="Raxfian-OS/platform_device_lge_hammerhead" remote="github" revision="M-6.0" />
   <project path="external/libpng" name="Raxfian-OS/platform_external_libpng" groups="pdk" remote="github" revision="M-6.0" />
   <project path="hardware/qcom/audio" name="Raxfian-OS/platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="M-6.0" />
-  <project path="vendor/samsung" name="Raxfian-OS/proprietary_vendor_samsung" remote="github" revision="aosp-6.0" />
-  <project path="vendor/ti" name="Raxfian-OS/proprietary_vendor_ti" remote="github" revision="aosp-6.0" />
   <project path="device/samsung/tuna" name="Raxfian-OS/android_device_samsung_tuna" remote="github" revision="aosp-6.0" />
-  <project path="hardware/ti/omap4" name="Raxfian-OS/android_hardware_ti_omap4" remote="github" revision="aosp-6.0" />
-  <project path="kernel/samsung/tuna" name="Raxfian-OS/android_kernel_samsung_tuna" remote="github" revision="aosp-6.0" />
   <project path="frameworks/av" name="Raxfian-OS/platform_frameworks_av" groups="pdk" remote="github" revision="M-6.0" />
   <project path="frameworks/native" name="Raxfian-OS/platform_frameworks_native" groups="pdk" remote="github" revision="M-6.0" />
   <project path="frameworks/opt/telephony" name="Raxfian-OS/platform_frameworks_opt_telephony" groups="pdk" remote="github" revision="M-6.0" />
