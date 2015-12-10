@@ -464,7 +464,6 @@
   <project path="packages/providers/DownloadProvider" name="Raxfian-OS/platform_packages_providers_DownloadProvider" remote="github" revision="M-6.0" />
   <project path="system/core" name="Raxfian-OS/platform_system_core" remote="github" revision="M-6.0" />
   <project path="packages/apps/CellBroadcastReceiver" name="Raxfian-OS/platform_packages_apps_CellBroadcastReceiver" remote="github" revision="M-6.0" />
-  <project path="device/moto/shamu" name="Raxfian-OS/platform_device_moto_shamu" remote="github" revision="android-6.0" />
   <project path="external/libpng" name="Raxfian-OS/platform_external_libpng" groups="pdk" remote="github" revision="M-6.0" />
   <project path="hardware/qcom/audio" name="Raxfian-OS/platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="M-6.0" />
   <project path="frameworks/av" name="Raxfian-OS/platform_frameworks_av" groups="pdk" remote="github" revision="M-6.0" />
