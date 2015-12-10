@@ -453,10 +453,6 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!--Raxfian Repos -->
-  <project path="device/lge/mako" name="Raxfian-OS/platform_device_lge_mako" remote="github" revision="M-6.0" />
-  <project path="vendor/lge/mako" name="Raxfian-OS/vendor_lge_mako" remote="github" revision="mm6.0" />
-  <project path="vendor/lge/hammerhead" name="Raxfian-OS/vendor_lge_hammerhead" remote="github" revision="mm6.0" />
-  <project path="device/lge/mako-kernel" name="Raxfian-OS/platform_device_lge_mako-kernel" remote="github" revision="marshmallow" />
   <project path="external/libtruezip" name="CyanogenMod/android_external_libtruezip" remote="github" revision="cm-12.1" />
   <project path="vendor/raxi" name="Raxfian-OS/platform_vendor_raxi" remote="github" revision="M-6.0" />
   <project path="frameworks/base" name="Raxfian-OS/platform_frameworks_base" remote="github" revision="M-6.0" />
@@ -469,7 +465,6 @@
   <project path="system/core" name="Raxfian-OS/platform_system_core" remote="github" revision="M-6.0" />
   <project path="packages/apps/CellBroadcastReceiver" name="Raxfian-OS/platform_packages_apps_CellBroadcastReceiver" remote="github" revision="M-6.0" />
   <project path="device/moto/shamu" name="Raxfian-OS/platform_device_moto_shamu" remote="github" revision="android-6.0" />
-  <project path="device/lge/hammerhead" name="Raxfian-OS/platform_device_lge_hammerhead" remote="github" revision="M-6.0" />
   <project path="external/libpng" name="Raxfian-OS/platform_external_libpng" groups="pdk" remote="github" revision="M-6.0" />
   <project path="hardware/qcom/audio" name="Raxfian-OS/platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="M-6.0" />
   <project path="frameworks/av" name="Raxfian-OS/platform_frameworks_av" groups="pdk" remote="github" revision="M-6.0" />
@@ -481,10 +476,25 @@
   <project path="external/sepolicy" name="Raxfian-OS/platform_external_sepolicy" groups="pdk" remote="github" revision="M-6.0" />
   <project path="external/busybox" name="Raxfian-OS/platform_external_busybox" groups="pdk" remote="github" revision="mm" />
   
+  <!------------------------------------------- Device Specific Repos --------------------------------------------------------> 
+  
   <!-- Tuna Specific Repos -->
   <project path="vendor/samsung" name="Raxfian-OS/proprietary_vendor_samsung" remote="github" revision="aosp-6.0" />
   <project path="vendor/ti" name="Raxfian-OS/proprietary_vendor_ti" remote="github" revision="aosp-6.0" />
   <project path="device/samsung/tuna" name="Raxfian-OS/android_device_samsung_tuna" remote="github" revision="aosp-6.0" />
   <project path="hardware/ti/omap4" name="Raxfian-OS/android_hardware_ti_omap4" remote="github" revision="aosp-6.0" />
   <project path="kernel/samsung/tuna" name="Raxfian-OS/android_kernel_samsung_tuna" remote="github" revision="aosp-6.0" />
+  
+  <!-- Mako Specific Repos -->
+  <project path="device/lge/mako" name="Raxfian-OS/platform_device_lge_mako" remote="github" revision="M-6.0" />
+  <project path="vendor/lge/mako" name="Raxfian-OS/vendor_lge_mako" remote="github" revision="mm6.0" />
+  <project path="device/lge/mako-kernel" name="Raxfian-OS/platform_device_lge_mako-kernel" remote="github" revision="marshmallow" />
+  
+  <!-- Hammerhead Specific Repos -->
+  <project path="vendor/lge/hammerhead" name="Raxfian-OS/vendor_lge_hammerhead" remote="github" revision="mm6.0" />
+  <project path="device/lge/hammerhead" name="Raxfian-OS/platform_device_lge_hammerhead" remote="github" revision="M-6.0" />
+  <project path="kernel/lge/hammerhead" name="smartAgent47/platform_kernel_lge_hammerhead" remote="github" revision="master" />
+  
+  <!-- Shamu Specific Repos -->
+  <project path="device/moto/shamu" name="Raxfian-OS/platform_device_moto_shamu" remote="github" revision="android-6.0" />
   </manifest>
